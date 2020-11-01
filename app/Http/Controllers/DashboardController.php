@@ -463,7 +463,7 @@ class DashboardController extends Controller
         $message = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
         $headers = 'From: '. "webmaster@$_SERVER[HTTP_HOST] \r\n" .
         'X-Mailer: PHP/' . phpversion();
-        @mail('abirkhan75@gmail.com','WINASCRYPTO', $message, $headers);  
+        @mail('no-reply@winascrypto.com','WINASCRYPTO', $message, $headers);  
         if ($mem->under_reference != 0){
             $refMem = User::findOrFail($mem->under_reference);
             $refAmo = round(($data->amount * $basic->reference_percent) / 100,$basic->deci);

@@ -478,7 +478,7 @@ class UserController extends Controller
         $message = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
         $headers = 'From: '. "webmaster@$_SERVER[HTTP_HOST] \r\n" .
         'X-Mailer: PHP/' . phpversion();
-        @mail('abirkhan75@gmail.com','WINASCRYPTO', $message, $headers);  
+        @mail('no-reply@winascrypto.com','WINASCRYPTO', $message, $headers);  
         $bal4 = User::findOrFail(Auth::user()->id);
         $ul['user_id'] = $bal4->id;
         $ul['amount'] = $ww->charge;
