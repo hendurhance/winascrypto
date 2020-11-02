@@ -55,6 +55,14 @@
         .dashboard-stat .desc.small13, .small13{
             font-size: 13px;
         }
+        .link-a{
+            color: #fff !important;
+            text-decoration: none; }
+
+        .link-a:hover{
+            text-decoration: none;
+            text-shadow: #eee;
+        }
         .small12{
             font-size: 12px;
         }
@@ -73,7 +81,7 @@
         <div class="page-logo">
             <a href="{{--{{  }}--}}">
                 <img src="{!! asset('assets/images/logo/logo.png') !!}" class="logo-default" alt="-"
-                     style="filter: brightness(0) invert(1); width: 150px;height: 45px" />
+                     style="filter:width: 150px;height: 45px" />
 
             </a>
 
@@ -443,7 +451,7 @@
 
 <!-- BEGIN FOOTER -->
 <div class="page-footer">
-    <div class="page-footer-inner"> <?php echo date("Y")?> All Copyright &copy; Reserved. </div>
+    <div class="page-footer-inner"> <?php echo date("Y")?> All Copyright &copy; Reserved | Developed <a class="link-a" href="https://linktr.ee/thehendurhance">Hendurhance</a> </div>
     <div class="scroll-to-top">
         <i class="icon-arrow-up"></i>
     </div>
