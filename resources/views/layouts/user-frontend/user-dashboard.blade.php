@@ -60,6 +60,9 @@
             max-height: 100px;
             max-width: 220px;
         }
+        .copyright-text a{
+            color: #fff !important;
+        }
     </style>
 </head>
 
@@ -187,17 +190,17 @@
 <footer id="contact" class="footer-area">
         <div class="container">
                       <div class="row">
-                <div class="col-md-4 col-sm-12 wow fadeInLeft" data-wow-duration="3s">
+                <div class="col-md-2 col-sm-12 wow fadeInLeft" data-wow-duration="3s">
                     <p class="copyright-text">
                        
                     </p>
                 </div>
-                <div class="col-md-4 col-sm-9 wow bounceInDown" data-wow-duration="3s">
+                <div class="col-md-8 col-sm-9 wow bounceInDown" data-wow-duration="3s">
                     <p class="copyright-text">
                         {!! $basic->copy_text !!}
                     </p>
                 </div>
-                <div class="col-md-4 col-sm-3 wow fadeInRight" data-wow-duration="3s">
+                <div class="col-md-2 col-sm-3 wow fadeInRight" data-wow-duration="3s">
                     
                 </div>
             </div>
