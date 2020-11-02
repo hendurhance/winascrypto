@@ -88,14 +88,14 @@
                                                 <div style="line-height: 24px;">
                                                     <font face="Arial, Helvetica, sans-serif" size="4" color="#57697e" style="font-size: 15px;">
 					                        <span style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; color: #57697e; font-weight: bold">
-						                <h4>Your verification Code is:</h4>
+						                <h4>Your Verification Code is:</h4>
 					                    </span></font>
                                                 </div>
                                                 <h3 style="font-size: 20px;font-weight: bold">{{ $code }}</h3>
                                                 <div style="line-height: 24px;">
                                                     <font face="Arial, Helvetica, sans-serif" size="4" color="#57697e">
 					                        <span style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #57697e; font-weight: bold">
-						                Please Copy The Code And Paste Verification Box.
+						                Please Copy The Code And Paste In Verification Box.
 					                    </span></font>
                                                 </div>
                                             </div>
