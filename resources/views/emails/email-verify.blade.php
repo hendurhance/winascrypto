@@ -77,7 +77,7 @@
                                         <div style="line-height: 24px;">
                                             <font face="Arial, Helvetica, sans-serif" size="4" color="#57697e" style="font-size: 15px;">
 					                        <span style="font-family: Arial, Helvetica, sans-serif; font-size: 18px; color: #57697e; font-weight: bold">
-						                You Receive This Email For Verify Your Email Account.
+						                You Receive This Email To Verify Your Email Account.
 					                    </span></font>
                                         </div>
                                         <!-- padding --><div style="height: 20px; line-height: 40px; font-size: 10px;"></div>

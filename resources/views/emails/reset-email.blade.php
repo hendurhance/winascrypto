@@ -82,7 +82,7 @@ Responsive Email Template by @keenthemes
                                         <div style="line-height: 24px;">
                                             <font face="Arial, Helvetica, sans-serif" size="4" color="#57697e" style="font-size: 15px;">
 					<span style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #57697e;">
-						You Receive This Email For Reset your Login Password
+						You Received This Email To Reset your Login Password
 					</span></font>
                                         </div>
                                         <!-- padding --><div style="height: 40px; line-height: 40px; font-size: 10px;"></div>
