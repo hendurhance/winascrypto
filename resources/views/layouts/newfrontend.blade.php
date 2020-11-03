@@ -50,7 +50,7 @@
 <div class="animation-element">
 <!-- End Pre-Loader -->
 <!--support bar  top start-->
-<div class="support-bar-top wow slideInLeft" data-wow-duration="2s" id="raindrops-green">
+<div class="support-bar-top" id="raindrops-green">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -76,7 +76,7 @@
 </div>
 <!--support bar  top end-->
 <!--main menu section start-->
-<nav class="main-menu wow slideInRight" data-wow-duration="2s">
+<nav class="main-menu">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
@@ -233,6 +233,12 @@
     }
     .copyright-text a{
         color: #fff !important;
+    }
+    .support-bar-top, .admin-section{
+        background-color: #121212 !important;
+    }
+    .main-menu{
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06), 0 3px 6px rgba(0, 0, 0, 0.09);
     }
 </style>
 <!--Google Map APi Key-->

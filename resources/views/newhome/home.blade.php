@@ -7,18 +7,25 @@
     <style>
        .price-table {
             margin-bottom: 45px;
+            }
+        .sale-content p{
+            text-transform: none;
+        }
+        .sale-section{
+            background-color: #121212 !important;
+        }
    </style>
 @endsection
 
 @section('content')
     <!--Header section start-->
-    <section id="particles-js" class="header-area header-bg" style="background-image: url('{{ asset('assets/images/slider') }}/{{$slider_text->image}}')">
+    <section class="header-area header-bg" style="background-image: url('{{ asset('assets/images/slider') }}/{{$slider_text->image}}')">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <div class="header-section-wrapper">
                         <div class="header-section-top-part">
-                            <div class="text-first wow slideInLeft" data-wow-duration="2s">{!!$slider_text->title!!}</div>
+                            <div class="text-first">{!!$slider_text->title!!}</div>
                             <p style="font-size: 1.5em;" class=" wow slideInDown" data-wow-duration="2s">{!!$slider_text->subtitle!!}</p>
                         </div>
                         <div class="header-section-bottom-part">
@@ -33,7 +40,7 @@
     <!--Header section end-->
     <div class="clearfix"></div>
     <!-- Admin section start -->
-    <div class="admin-section wow slideInRight" data-wow-duration="2s">
+    <div class="admin-section wow slideInDown" data-wow-duration="2s">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -57,6 +64,54 @@
         </div>
     </div>
     <!-- Admin section end -->
+
+    <!-- trading widget -->
+    <section>
+        <div class="trade-wid">
+          <!-- TradingView Widget BEGIN -->
+          <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+            {
+            "symbols": [
+              {
+                "proName": "BITSTAMP:BTCUSD",
+                "title": "BTC/USD"
+              },
+              {
+                "proName": "BITSTAMP:ETHUSD",
+                "title": "ETH/USD"
+              },
+              {
+                  "proName": "COINBASE:BTCEUR",
+                  "title": "BTC/EUR"
+              },
+              {
+                  "proName": "KRAKEN:ETHEUR",
+                  "title": "ETH/EUR"
+              },
+              {
+                  "proName": "FX_IDC:USDEUR",
+                  "title": "BTC/EUR"
+              },
+              {
+                  "proName": "FX_IDC:USDEUR",
+                  "title": "BTC/EUR"
+              }
+            ],
+            "showSymbolLogo": true,
+            "colorTheme": "light",
+            "isTransparent": false,
+            "displayMode": "adaptive",
+            "locale": "en"
+          }
+            </script>
+          </div>
+          <!-- TradingView Widget END -->
+        </div>
+    </section>
+    <!-- trading widget ends -->
 
     <div class="clearfix"></div>
     <!-- Circle Section Start -->
@@ -124,7 +179,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="section-title text-center section-padding padding-bottom-0 wow slideInLeft" data-wow-duration="2s">
+                <div class="section-title text-center section-padding padding-bottom-0 wow slideInUp" data-wow-duration="2s">
                     <div class="section-header">
                         <h2>Our <span>Services</span></h2>
                         <p><img src="{{asset('assets/images/logo/icon.png') }}" alt="icon"></p>
@@ -133,7 +188,7 @@
                 </div>
             </div>
         </div>
-        <div class="row wow slideInRight" data-wow-duration="2s">
+        <div class="row wow slideInUp" data-wow-duration="2s">
             @foreach($service as $s)
             <div class="col-md-3 col-sm-6">
                 <div class="service-wrapper text-center">
@@ -156,7 +211,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="section-title text-center section-padding padding-bottom-0 wow slideInLeft" data-wow-duration="2s">
+                    <div class="section-title text-center section-padding padding-bottom-0 wow slideInUp" data-wow-duration="2s">
                         <div class="section-header">
                             <h2>Our awesome <span> plans</span></h2>
                             <p><img src="{{asset('assets/images/logo/icon.png') }}" alt="icon"></p>
@@ -247,7 +302,7 @@
 <section class="commission-section section-padding ">
     <div class="container">
       <!-- section header start -->
-          <div class="section-header wow slideInLeft" data-wow-duration="2s">
+          <div class="section-header wow slideInUp" data-wow-duration="2s">
             <h2>Our top <span> Investors</span></h2>
             <p><img src="{{asset('assets/images/logo/icon.png') }}" alt="icon"></p>
           </div>
@@ -341,7 +396,7 @@
        <div class="row">
         <div class="col-md-12">
           <!-- section header start -->
-          <div class="section-header wow bounceInLeft" data-wow-duration="2s">
+          <div class="section-header wow bounceInUp" data-wow-duration="2s">
             <h2>What People <span>Say</span> </h2>
            <p><img src="{{asset('assets/images/logo/icon.png') }}" alt="icon"></p>
           </div>

